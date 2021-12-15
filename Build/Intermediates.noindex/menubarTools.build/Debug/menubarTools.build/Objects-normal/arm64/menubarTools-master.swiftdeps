@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1639551570, 459059000]
+build_end_time: [1639551570, 934962987]
+inputs:
+  "/Users/bssm/ios/menbubar/menubarTools/menubarTools/ContentView.swift": [1639535691, 956942081]
+  "/Users/bssm/ios/menbubar/menubarTools/menubarTools/menubarToolsApp.swift": [1639551568, 297256469]

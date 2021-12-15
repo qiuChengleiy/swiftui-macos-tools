@@ -1,0 +1,12 @@
+{
+  "source": "/Users/bssm/ios/menbubar/menubarTools/menubarTools/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hello, world!"
+      }
+    ]
+  },
+  "version": 1
+}

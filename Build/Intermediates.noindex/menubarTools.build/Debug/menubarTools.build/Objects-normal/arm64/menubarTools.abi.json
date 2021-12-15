@@ -1,0 +1,1252 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "menubarTools"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "menubarTools"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "menubarTools"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12menubarTools11ContentViewV4bodyQrvp",
+          "mangledName": "$s12menubarTools11ContentViewV4bodyQrvp",
+          "moduleName": "menubarTools",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools11ContentViewV4bodyQrvg",
+              "mangledName": "$s12menubarTools11ContentViewV4bodyQrvg",
+              "moduleName": "menubarTools",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "menubarTools.ContentView",
+              "usr": "s:12menubarTools11ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12menubarTools11ContentViewVACycfc",
+          "mangledName": "$s12menubarTools11ContentViewVACycfc",
+          "moduleName": "menubarTools",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:12menubarTools11ContentViewV",
+      "mangledName": "$s12menubarTools11ContentViewV",
+      "moduleName": "menubarTools",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView_Previews",
+      "printedName": "ContentView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "menubarTools.ContentView",
+              "usr": "s:12menubarTools11ContentViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12menubarTools20ContentView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s12menubarTools20ContentView_PreviewsV8previewsQrvpZ",
+          "moduleName": "menubarTools",
+          "static": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ContentView",
+                  "printedName": "menubarTools.ContentView",
+                  "usr": "s:12menubarTools11ContentViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools20ContentView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s12menubarTools20ContentView_PreviewsV8previewsQrvgZ",
+              "moduleName": "menubarTools",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView_Previews",
+              "printedName": "menubarTools.ContentView_Previews",
+              "usr": "s:12menubarTools20ContentView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12menubarTools20ContentView_PreviewsVACycfc",
+          "mangledName": "$s12menubarTools20ContentView_PreviewsVACycfc",
+          "moduleName": "menubarTools",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:12menubarTools20ContentView_PreviewsV",
+      "mangledName": "$s12menubarTools20ContentView_PreviewsV",
+      "moduleName": "menubarTools",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ContentView",
+                  "printedName": "menubarTools.ContentView",
+                  "usr": "s:12menubarTools11ContentViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "menubarTools"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "menubarTools"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "menubarTools"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "menubarToolsApp",
+      "printedName": "menubarToolsApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "delegate",
+          "printedName": "delegate",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppMenuDelegate",
+              "printedName": "menubarTools.AppMenuDelegate",
+              "usr": "c:@M@menubarTools@objc(cs)AppMenuDelegate"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12menubarTools0aB3AppV8delegateAA0C12MenuDelegateCvp",
+          "mangledName": "$s12menubarTools0aB3AppV8delegateAA0C12MenuDelegateCvp",
+          "moduleName": "menubarTools",
+          "declAttributes": [
+            "Custom",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppMenuDelegate",
+                  "printedName": "menubarTools.AppMenuDelegate",
+                  "usr": "c:@M@menubarTools@objc(cs)AppMenuDelegate"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools0aB3AppV8delegateAA0C12MenuDelegateCvg",
+              "mangledName": "$s12menubarTools0aB3AppV8delegateAA0C12MenuDelegateCvg",
+              "moduleName": "menubarTools",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_delegate",
+          "printedName": "_delegate",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSApplicationDelegateAdaptor",
+              "printedName": "SwiftUI.NSApplicationDelegateAdaptor<menubarTools.AppMenuDelegate>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppMenuDelegate",
+                  "printedName": "menubarTools.AppMenuDelegate",
+                  "usr": "c:@M@menubarTools@objc(cs)AppMenuDelegate"
+                }
+              ],
+              "usr": "s:7SwiftUI28NSApplicationDelegateAdaptorV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12menubarTools0aB3AppV9_delegate33_3276FA41845DEBCF1BF663ACFDDEBB7FLL7SwiftUI28NSApplicationDelegateAdaptorVyAA0c4MenuL0CGvp",
+          "mangledName": "$s12menubarTools0aB3AppV9_delegate33_3276FA41845DEBCF1BF663ACFDDEBB7FLL7SwiftUI28NSApplicationDelegateAdaptorVyAA0c4MenuL0CGvp",
+          "moduleName": "menubarTools",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Settings",
+              "printedName": "SwiftUI.Settings<menubarTools.ContentView>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ContentView",
+                  "printedName": "menubarTools.ContentView",
+                  "usr": "s:12menubarTools11ContentViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI8SettingsV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12menubarTools0aB3AppV4bodyQrvp",
+          "mangledName": "$s12menubarTools0aB3AppV4bodyQrvp",
+          "moduleName": "menubarTools",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Settings",
+                  "printedName": "SwiftUI.Settings<menubarTools.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "menubarTools.ContentView",
+                      "usr": "s:12menubarTools11ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI8SettingsV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools0aB3AppV4bodyQrvg",
+              "mangledName": "$s12menubarTools0aB3AppV4bodyQrvg",
+              "moduleName": "menubarTools",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:12menubarTools0aB3AppV5$mainyyFZ",
+          "mangledName": "$s12menubarTools0aB3AppV5$mainyyFZ",
+          "moduleName": "menubarTools",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "menubarToolsApp",
+              "printedName": "menubarTools.menubarToolsApp",
+              "usr": "s:12menubarTools0aB3AppV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12menubarTools0aB3AppVACycfc",
+          "mangledName": "$s12menubarTools0aB3AppVACycfc",
+          "moduleName": "menubarTools",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(delegate:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "menubarToolsApp",
+              "printedName": "menubarTools.menubarToolsApp",
+              "usr": "s:12menubarTools0aB3AppV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSApplicationDelegateAdaptor",
+              "printedName": "SwiftUI.NSApplicationDelegateAdaptor<menubarTools.AppMenuDelegate>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppMenuDelegate",
+                  "printedName": "menubarTools.AppMenuDelegate",
+                  "usr": "c:@M@menubarTools@objc(cs)AppMenuDelegate"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:7SwiftUI28NSApplicationDelegateAdaptorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:12menubarTools0aB3AppV8delegateAC7SwiftUI28NSApplicationDelegateAdaptorVyAA0c4MenuH0CG_tcfc",
+          "mangledName": "$s12menubarTools0aB3AppV8delegateAC7SwiftUI28NSApplicationDelegateAdaptorVyAA0c4MenuH0CG_tcfc",
+          "moduleName": "menubarTools",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:12menubarTools0aB3AppV",
+      "mangledName": "$s12menubarTools0aB3AppV",
+      "moduleName": "menubarTools",
+      "declAttributes": [
+        "Custom",
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Settings",
+                  "printedName": "SwiftUI.Settings<menubarTools.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "menubarTools.ContentView",
+                      "usr": "s:12menubarTools11ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI8SettingsV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "statusItem",
+          "printedName": "statusItem",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "AppKit.NSStatusItem?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSStatusItem",
+                  "printedName": "AppKit.NSStatusItem",
+                  "usr": "c:objc(cs)NSStatusItem"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12menubarTools11AppDelegateC10statusItemSo08NSStatusF0CSgvp",
+          "mangledName": "$s12menubarTools11AppDelegateC10statusItemSo08NSStatusF0CSgvp",
+          "moduleName": "menubarTools",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "AppKit.NSStatusItem?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSStatusItem",
+                      "printedName": "AppKit.NSStatusItem",
+                      "usr": "c:objc(cs)NSStatusItem"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools11AppDelegateC10statusItemSo08NSStatusF0CSgvg",
+              "mangledName": "$s12menubarTools11AppDelegateC10statusItemSo08NSStatusF0CSgvg",
+              "moduleName": "menubarTools",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "AppKit.NSStatusItem?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSStatusItem",
+                      "printedName": "AppKit.NSStatusItem",
+                      "usr": "c:objc(cs)NSStatusItem"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools11AppDelegateC10statusItemSo08NSStatusF0CSgvs",
+              "mangledName": "$s12menubarTools11AppDelegateC10statusItemSo08NSStatusF0CSgvs",
+              "moduleName": "menubarTools",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools11AppDelegateC10statusItemSo08NSStatusF0CSgvM",
+              "mangledName": "$s12menubarTools11AppDelegateC10statusItemSo08NSStatusF0CSgvM",
+              "moduleName": "menubarTools",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "popOver",
+          "printedName": "popOver",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSPopover",
+              "printedName": "AppKit.NSPopover",
+              "usr": "c:objc(cs)NSPopover"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12menubarTools11AppDelegateC7popOverSo9NSPopoverCvp",
+          "mangledName": "$s12menubarTools11AppDelegateC7popOverSo9NSPopoverCvp",
+          "moduleName": "menubarTools",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSPopover",
+                  "printedName": "AppKit.NSPopover",
+                  "usr": "c:objc(cs)NSPopover"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools11AppDelegateC7popOverSo9NSPopoverCvg",
+              "mangledName": "$s12menubarTools11AppDelegateC7popOverSo9NSPopoverCvg",
+              "moduleName": "menubarTools",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSPopover",
+                  "printedName": "AppKit.NSPopover",
+                  "usr": "c:objc(cs)NSPopover"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools11AppDelegateC7popOverSo9NSPopoverCvs",
+              "mangledName": "$s12menubarTools11AppDelegateC7popOverSo9NSPopoverCvs",
+              "moduleName": "menubarTools",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools11AppDelegateC7popOverSo9NSPopoverCvM",
+              "mangledName": "$s12menubarTools11AppDelegateC7popOverSo9NSPopoverCvM",
+              "moduleName": "menubarTools",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "applicationDidFinishLaunching",
+          "printedName": "applicationDidFinishLaunching(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@menubarTools@objc(cs)AppDelegate(im)applicationDidFinishLaunching:",
+          "mangledName": "$s12menubarTools11AppDelegateC29applicationDidFinishLaunchingyy10Foundation12NotificationVF",
+          "moduleName": "menubarTools",
+          "isOpen": true,
+          "objc_name": "applicationDidFinishLaunching:",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "menuButtonToggle",
+          "printedName": "menuButtonToggle()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@menubarTools@objc(cs)AppDelegate(im)menuButtonToggle",
+          "mangledName": "$s12menubarTools11AppDelegateC16menuButtonToggleyyF",
+          "moduleName": "menubarTools",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "menubarTools.AppDelegate",
+              "usr": "c:@M@menubarTools@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@menubarTools@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s12menubarTools11AppDelegateCACycfc",
+          "moduleName": "menubarTools",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@menubarTools@objc(cs)AppDelegate",
+      "mangledName": "$s12menubarTools11AppDelegateC",
+      "moduleName": "menubarTools",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppMenuDelegate",
+      "printedName": "AppMenuDelegate",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "statusItem",
+          "printedName": "statusItem",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "AppKit.NSStatusItem?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSStatusItem",
+                  "printedName": "AppKit.NSStatusItem",
+                  "usr": "c:objc(cs)NSStatusItem"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12menubarTools15AppMenuDelegateC10statusItemSo08NSStatusG0CSgvp",
+          "mangledName": "$s12menubarTools15AppMenuDelegateC10statusItemSo08NSStatusG0CSgvp",
+          "moduleName": "menubarTools",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "AppKit.NSStatusItem?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSStatusItem",
+                      "printedName": "AppKit.NSStatusItem",
+                      "usr": "c:objc(cs)NSStatusItem"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools15AppMenuDelegateC10statusItemSo08NSStatusG0CSgvg",
+              "mangledName": "$s12menubarTools15AppMenuDelegateC10statusItemSo08NSStatusG0CSgvg",
+              "moduleName": "menubarTools",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "AppKit.NSStatusItem?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSStatusItem",
+                      "printedName": "AppKit.NSStatusItem",
+                      "usr": "c:objc(cs)NSStatusItem"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools15AppMenuDelegateC10statusItemSo08NSStatusG0CSgvs",
+              "mangledName": "$s12menubarTools15AppMenuDelegateC10statusItemSo08NSStatusG0CSgvs",
+              "moduleName": "menubarTools",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools15AppMenuDelegateC10statusItemSo08NSStatusG0CSgvM",
+              "mangledName": "$s12menubarTools15AppMenuDelegateC10statusItemSo08NSStatusG0CSgvM",
+              "moduleName": "menubarTools",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "menu",
+          "printedName": "menu",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSMenu",
+              "printedName": "AppKit.NSMenu",
+              "usr": "c:objc(cs)NSMenu"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12menubarTools15AppMenuDelegateC4menuSo6NSMenuCvp",
+          "mangledName": "$s12menubarTools15AppMenuDelegateC4menuSo6NSMenuCvp",
+          "moduleName": "menubarTools",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSMenu",
+                  "printedName": "AppKit.NSMenu",
+                  "usr": "c:objc(cs)NSMenu"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools15AppMenuDelegateC4menuSo6NSMenuCvg",
+              "mangledName": "$s12menubarTools15AppMenuDelegateC4menuSo6NSMenuCvg",
+              "moduleName": "menubarTools",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSMenu",
+                  "printedName": "AppKit.NSMenu",
+                  "usr": "c:objc(cs)NSMenu"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools15AppMenuDelegateC4menuSo6NSMenuCvs",
+              "mangledName": "$s12menubarTools15AppMenuDelegateC4menuSo6NSMenuCvs",
+              "moduleName": "menubarTools",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12menubarTools15AppMenuDelegateC4menuSo6NSMenuCvM",
+              "mangledName": "$s12menubarTools15AppMenuDelegateC4menuSo6NSMenuCvM",
+              "moduleName": "menubarTools",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "applicationDidFinishLaunching",
+          "printedName": "applicationDidFinishLaunching(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@menubarTools@objc(cs)AppMenuDelegate(im)applicationDidFinishLaunching:",
+          "mangledName": "$s12menubarTools15AppMenuDelegateC29applicationDidFinishLaunchingyy10Foundation12NotificationVF",
+          "moduleName": "menubarTools",
+          "isOpen": true,
+          "objc_name": "applicationDidFinishLaunching:",
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "showAbout",
+          "printedName": "showAbout()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@menubarTools@objc(cs)AppMenuDelegate(im)showAbout",
+          "mangledName": "$s12menubarTools15AppMenuDelegateC9showAboutyyF",
+          "moduleName": "menubarTools",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppMenuDelegate",
+              "printedName": "menubarTools.AppMenuDelegate",
+              "usr": "c:@M@menubarTools@objc(cs)AppMenuDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@menubarTools@objc(cs)AppMenuDelegate(im)init",
+          "mangledName": "$s12menubarTools15AppMenuDelegateCACycfc",
+          "moduleName": "menubarTools",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@menubarTools@objc(cs)AppMenuDelegate",
+      "mangledName": "$s12menubarTools15AppMenuDelegateC",
+      "moduleName": "menubarTools",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}
